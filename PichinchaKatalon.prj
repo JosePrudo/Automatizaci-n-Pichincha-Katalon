@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Automatización web del portal de Banco Pichincha</description>
+   <name>PichinchaKatalon</name>
+   <tag></tag>
+   <UUID>3f6b2c1e-8a4d-4e2b-9c7a-1d5e6f7a8b90</UUID>
+   <migratedVersion>5.9.0</migratedVersion>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <sourceContent>
+      <sourceFolderList>
+         <sourceFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </sourceFolderConfiguration>
+      </sourceFolderList>
+      <systemFolderList>
+         <systemFolderConfiguration>
+            <url>Include/config</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/features</url>
+         </systemFolderConfiguration>
+      </systemFolderList>
+   </sourceContent>
+   <type>WEBUI</type>
+</Project>

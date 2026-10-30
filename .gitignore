@@ -147,3 +147,14 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Katalon Studio
+.gradle
+bin
+build
+Libs
+Reports
+.settings
+.classpath
+.project
+settings/internal

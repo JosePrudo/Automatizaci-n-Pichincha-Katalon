@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>URL base del portal</description>
+      <initValue>'https://www.pichincha.com'</initValue>
+      <name>baseUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Timeout por defecto en segundos</description>
+      <initValue>30</initValue>
+      <name>timeout</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
