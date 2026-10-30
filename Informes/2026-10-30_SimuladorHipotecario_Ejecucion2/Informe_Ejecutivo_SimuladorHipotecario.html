@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Informe Ejecutivo · Simulador de Crédito Hipotecario · Ejecución 2 · 30-10-2026</title>
+<style>
+  :root { --azul:#0f265c; --amarillo:#ffdd00; --verde:#16a34a; --rojo:#dc2626; --ambar:#d97706; --gris:#64748b; --linea:#e2e8f0; --fondo:#f1f5f9; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:"Segoe UI", system-ui, sans-serif; color:#0f172a; background:var(--fondo); line-height:1.5; }
+  .page { max-width:1150px; margin:32px auto; background:#fff; border-radius:16px; overflow:hidden; box-shadow:0 20px 50px -25px rgba(15,38,92,.35); }
+  header { background:var(--azul); color:#fff; padding:32px 40px; border-bottom:6px solid var(--amarillo); }
+  header h1 { margin:0 0 6px; font-size:28px; }
+  header p { margin:0; opacity:.85; }
+  .meta { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-top:22px; font-size:13px; }
+  .meta div { background:rgba(255,255,255,.08); border-radius:10px; padding:10px 12px; }
+  .meta b { display:block; font-size:11px; text-transform:uppercase; letter-spacing:.06em; opacity:.7; }
+  section { padding:28px 40px; border-bottom:1px solid var(--linea); }
+  h2 { color:var(--azul); font-size:20px; margin:0 0 16px; }
+  .kpis { display:grid; grid-template-columns:repeat(5,1fr); gap:14px; }
+  .kpi { border:1px solid var(--linea); border-radius:12px; padding:16px; text-align:center; }
+  .kpi .v { font-size:30px; font-weight:700; }
+  .kpi .l { font-size:12px; color:var(--gris); text-transform:uppercase; letter-spacing:.05em; }
+  .ok { color:var(--verde); } .ko { color:var(--rojo); } .warn { color:var(--ambar); }
+  .bar { height:14px; border-radius:7px; background:#fee2e2; overflow:hidden; margin-top:18px; }
+  .bar span { display:block; height:100%; width:85.7%; background:var(--verde); }
+  .veredicto { margin-top:18px; padding:16px 18px; border-left:5px solid var(--rojo); background:#fef2f2; border-radius:8px; }
+  .nota { padding:14px 18px; border-left:5px solid var(--ambar); background:#fffbeb; border-radius:8px; font-size:14px; }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th { background:var(--azul); color:#fff; text-align:left; padding:10px; font-weight:600; }
+  td { padding:10px; border-bottom:1px solid var(--linea); vertical-align:top; }
+  tr:nth-child(even) td { background:#f8fafc; }
+  .badge { display:inline-block; padding:2px 10px; border-radius:999px; font-size:12px; font-weight:700; }
+  .b-ok { background:#dcfce7; color:var(--verde); } .b-ko { background:#fee2e2; color:var(--rojo); } .b-warn { background:#fef3c7; color:var(--ambar); }
+  .b-alta { background:#fee2e2; color:var(--rojo); } .b-media { background:#fef3c7; color:var(--ambar); } .b-baja { background:#e0f2fe; color:#0369a1; }
+  .defecto { border:1px solid var(--linea); border-radius:12px; padding:18px; margin-bottom:16px; }
+  .defecto h3 { margin:0 0 8px; font-size:16px; color:var(--azul); }
+  .defecto dl { display:grid; grid-template-columns:170px 1fr; gap:6px 14px; margin:0; font-size:14px; }
+  .defecto dt { font-weight:600; color:var(--gris); }
+  .defecto dd { margin:0; }
+  code { background:#f1f5f9; padding:1px 6px; border-radius:4px; font-size:12.5px; word-break:break-all; }
+  .galeria { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; }
+  figure { margin:0; border:1px solid var(--linea); border-radius:10px; overflow:hidden; }
+  figure img { width:100%; display:block; }
+  figcaption { padding:8px 12px; font-size:13px; background:#f8fafc; }
+  ul { margin:0; padding-left:20px; } li { margin-bottom:6px; }
+  footer { padding:20px 40px; font-size:12px; color:var(--gris); }
+</style>
+</head>
+<body>
+<div class="page">
+
+<header>
+  <h1>Informe Ejecutivo de Pruebas Automatizadas · Ejecución 2</h1>
+  <p>Simulador de Crédito Hipotecario «Tu Crédito de Vivienda» · Flujo básico por sección</p>
+  <div class="meta">
+    <div><b>Fecha de ejecución</b>30-10-2026 10:39 – 10:43</div>
+    <div><b>Herramienta</b>Katalon Studio 11.7.0</div>
+    <div><b>Navegador</b>Chrome 156.0.8078.74 · Windows</div>
+    <div><b>Suite</b>TS_SimuladorHipotecario</div>
+  </div>
+</header>
+
+<section>
+  <h2>1. Resumen ejecutivo</h2>
+  <div class="kpis">
+    <div class="kpi"><div class="v">7</div><div class="l">Casos ejecutados</div></div>
+    <div class="kpi"><div class="v ok">6</div><div class="l">Exitosos</div></div>
+    <div class="kpi"><div class="v ko">1</div><div class="l">Fallidos</div></div>
+    <div class="kpi"><div class="v">85,7%</div><div class="l">Tasa de éxito</div></div>
+    <div class="kpi"><div class="v">3m 57s</div><div class="l">Duración total</div></div>
+  </div>
+  <div class="bar"><span></span></div>
+  <div class="veredicto">
+    <b>Veredicto: NO APTO para salida a producción.</b><br>
+    La navegación por las 7 secciones funciona y los formularios validan los campos obligatorios. Sin embargo, la simulación
+    <b>no puede enviarse</b> porque el servicio backend está deshabilitado (HTTP 403 «Site Disabled»; DEF-01, bloqueante) y la sección
+    Resultados <b>sigue sin mostrar la cuota ni el costo de seguros</b> (DEF-02, abierto y registrado como advertencia).
+  </div>
+</section>
+
+<section>
+  <h2>2. Cambios respecto a la ejecución 1 (10:25)</h2>
+  <table>
+    <tr><th>Indicador</th><th>Ejecución 1</th><th>Ejecución 2</th></tr>
+    <tr><td>Exitosos / Fallidos</td><td>5 / 2</td><td>6 / 1</td></tr>
+    <tr><td>Tasa de éxito</td><td>71,4%</td><td>85,7%</td></tr>
+    <tr><td>TC04_Resultados</td><td><span class="badge b-ko">FALLÓ</span></td><td><span class="badge b-warn">PASÓ CON ADVERTENCIA</span></td></tr>
+    <tr><td>TC07_Confirmacion</td><td><span class="badge b-ko">FALLÓ</span></td><td><span class="badge b-ko">FALLÓ</span> (misma causa)</td></tr>
+  </table>
+  <p class="nota" style="margin-top:14px">
+    <b>Ajuste realizado en TC04 (script de prueba, no la aplicación):</b> el caso valida el flujo básico de la sección
+    (título, mensaje, botones «¿Quieres conocer tu capacidad real?» y «Volver», y avance a Capacidades). La ausencia de cuota y seguros
+    deja de detener el caso y queda registrada como <b>advertencia DEF-02</b> en el log de Katalon. <b>El defecto de la aplicación no se ha corregido</b>.
+  </p>
+</section>
+
+<section>
+  <h2>3. Alcance</h2>
+  <ul>
+    <li><b>Aplicación:</b> <code>https://brave-mud-0605ba20f.3.azurestaticapps.net/</code></li>
+    <li><b>Tipo de prueba:</b> funcional automatizada E2E (UI), flujo básico (camino feliz) de cada sección.</li>
+    <li><b>Cobertura:</b> 7 de 7 secciones: Proyecto, Finanzas, Personaliza, Resultados, Capacidades, Contacto y Confirmación.</li>
+    <li><b>Validaciones por sección:</b> sección activa en el indicador de pasos, título, botón «Siguiente» bloqueado sin datos obligatorios,
+      habilitado al completarlos y avance a la sección siguiente. En Confirmación también se validan el resumen y el envío.</li>
+    <li><b>Fuera de alcance:</b> pruebas negativas exhaustivas, rendimiento, seguridad, accesibilidad y compatibilidad multinavegador.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>4. Resultado por sección</h2>
+  <table>
+    <tr><th>#</th><th>Caso de prueba</th><th>Sección</th><th>Validaciones clave</th><th>Duración</th><th>Estado</th></tr>
+    <tr><td>1</td><td>TC01_Proyecto</td><td>Proyecto</td><td>Obligatorios (solicitante, vivienda, ciudad) bloquean «Siguiente»; avance a Finanzas.</td><td>33,1 s</td><td><span class="badge b-ok">PASÓ</span></td></tr>
+    <tr><td>2</td><td>TC02_Finanzas</td><td>Finanzas</td><td>Situación laboral, ingresos y ahorro con formato moneda, fecha de nacimiento y estado civil; avance a Personaliza.</td><td>30,3 s</td><td><span class="badge b-ok">PASÓ</span></td></tr>
+    <tr><td>3</td><td>TC03_Personaliza</td><td>Personaliza</td><td>Monto, plazo (15 años) y cuota variable; avance a Resultados.</td><td>23,8 s</td><td><span class="badge b-ok">PASÓ</span></td></tr>
+    <tr><td>4</td><td>TC04_Resultados</td><td>Resultados</td><td>Título, mensaje y botones de la sección; avance a Capacidades. Advertencia DEF-02: sin cuota ni seguros.</td><td>50,0 s</td><td><span class="badge b-warn">PASÓ CON ADVERTENCIA</span></td></tr>
+    <tr><td>5</td><td>TC05_Capacidades</td><td>Capacidades</td><td>Datos personales, autorización de consulta a centrales de riesgo; avance a Contacto.</td><td>28,5 s</td><td><span class="badge b-ok">PASÓ</span></td></tr>
+    <tr><td>6</td><td>TC06_Contacto</td><td>Contacto</td><td>Horario, medio de contacto (WhatsApp) y política de privacidad; avance a Confirmación.</td><td>38,2 s</td><td><span class="badge b-ok">PASÓ</span></td></tr>
+    <tr><td>7</td><td>TC07_Confirmacion</td><td>Confirmación</td><td>Código de simulación y resumen con los datos ingresados (OK); confirmación obligatoria (OK); envío al servicio (FALLA).</td><td>32,6 s</td><td><span class="badge b-ko">FALLÓ</span></td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>5. Defectos abiertos</h2>
+
+  <div class="defecto">
+    <h3>DEF-01 · El envío de la simulación falla: servicio backend deshabilitado <span class="badge b-alta">Severidad ALTA · Bloqueante</span></h3>
+    <dl>
+      <dt>Caso</dt><dd>TC07_Confirmacion</dd>
+      <dt>Resultado obtenido</dt><dd>Al pulsar «Aceptar y Enviar» aparece el modal «Error en el Envío»: <code>Http failure response for https://simulador-credito-bancopichincha-back-hef4bsapdyhvgmcf.eastus2-01.azurewebsites.net/api/Simulacion/procesar: 0 Unknown Error</code>.</dd>
+      <dt>Resultado esperado</dt><dd>La simulación se registra y se confirma al cliente que será contactado.</dd>
+      <dt>Causa raíz</dt><dd>El navegador reporta bloqueo CORS. Una verificación directa del endpoint (10:44) sigue devolviendo <b>HTTP 403 «Site Disabled»</b>: la App Service de Azure del backend está detenida o deshabilitada.</dd>
+      <dt>Efecto adicional</dt><dd>Al cerrar el modal, el asistente vuelve a la sección 1 y se pierden los datos diligenciados.</dd>
+      <dt>Acción sugerida</dt><dd>Reactivar la App Service del backend, confirmar la configuración CORS para el origen del frontend y repetir TC07.</dd>
+    </dl>
+  </div>
+
+  <div class="defecto">
+    <h3>DEF-02 · La sección Resultados no muestra cuota ni seguros <span class="badge b-alta">Severidad ALTA</span></h3>
+    <dl>
+      <dt>Caso</dt><dd>TC04_Resultados (registrado como advertencia)</dd>
+      <dt>Resultado obtenido</dt><dd>Solo se muestra el texto «Aquí ve su cuota y los seguros», sin valores. En la consola del navegador los resultados son <code>{monthlyPayment: 0, totalAmount: 0, totalInterest: 0, loanToValue: 0, insuranceCost: 0}</code>.</dd>
+      <dt>Resultado esperado</dt><dd>Cuota mensual, costo de seguros y totales calculados con el monto ($150.000), plazo (20 años) y tipo de cuota seleccionados.</dd>
+      <dt>Impacto</dt><dd>El cliente no obtiene el resultado principal del simulador.</dd>
+      <dt>Acción sugerida</dt><dd>Revisar la lógica de cálculo de la sección Resultados (o su dependencia del backend). Cuando se corrija, volver a convertir la advertencia en validación obligatoria en TC04.</dd>
+    </dl>
+  </div>
+</section>
+
+<section>
+  <h2>6. Observaciones (no bloquean la ejecución)</h2>
+  <table>
+    <tr><th>#</th><th>Observación</th><th>Sección</th><th>Prioridad</th></tr>
+    <tr><td>OBS-01</td><td>En Capacidades el botón «Siguiente» está habilitado con todos los campos vacíos (nombre, cédula, correo, teléfono), a diferencia de las secciones 1 a 3. Se recomienda verificar la obligatoriedad y el formato de cédula y correo.</td><td>Capacidades</td><td><span class="badge b-media">Media</span></td></tr>
+    <tr><td>OBS-02</td><td>El teléfono celular muestra el formato de Colombia <code>+57 (000) 000 00 00</code> en un producto de Ecuador (+593).</td><td>Capacidades</td><td><span class="badge b-media">Media</span></td></tr>
+    <tr><td>OBS-03</td><td>El rango de precio muestra «$174,950.00» aunque el control deslizante tiene el valor $170.000.</td><td>Proyecto / Confirmación</td><td><span class="badge b-media">Media</span></td></tr>
+    <tr><td>OBS-04</td><td>Aparece un carácter suelto «`» bajo el indicador de pasos en todas las secciones.</td><td>Todas</td><td><span class="badge b-baja">Baja</span></td></tr>
+    <tr><td>OBS-05</td><td>Textos: «Tu Credito» sin tilde; en el resumen la pregunta cambia a «¿Edificas solo o en pareja?» (en la sección 1 es «¿Aplicas solo o en pareja?»); «Selecciono a toda la información está correcta» tiene redacción incorrecta.</td><td>Varias</td><td><span class="badge b-baja">Baja</span></td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>7. Evidencias</h2>
+  <div class="galeria">
+    <figure><img src="evidencias/TC01_Proyecto.png" alt="TC01"><figcaption><b>TC01</b> · Proyecto diligenciado – PASÓ</figcaption></figure>
+    <figure><img src="evidencias/TC02_Finanzas.png" alt="TC02"><figcaption><b>TC02</b> · Finanzas diligenciada – PASÓ</figcaption></figure>
+    <figure><img src="evidencias/TC03_Personaliza.png" alt="TC03"><figcaption><b>TC03</b> · Personaliza diligenciada – PASÓ</figcaption></figure>
+    <figure><img src="evidencias/TC04_Resultados.png" alt="TC04"><figcaption><b>TC04</b> · Resultados – PASÓ CON ADVERTENCIA (DEF-02: sin cuota ni seguros)</figcaption></figure>
+    <figure><img src="evidencias/TC05_Capacidades.png" alt="TC05"><figcaption><b>TC05</b> · Capacidades diligenciada – PASÓ</figcaption></figure>
+    <figure><img src="evidencias/TC06_Contacto.png" alt="TC06"><figcaption><b>TC06</b> · Contacto diligenciado – PASÓ</figcaption></figure>
+    <figure><img src="evidencias/TC07_Confirmacion_antes_envio.png" alt="TC07a"><figcaption><b>TC07</b> · Resumen y confirmación antes del envío</figcaption></figure>
+    <figure><img src="evidencias/TC07_Confirmacion_error_envio.png" alt="TC07b"><figcaption><b>TC07</b> · Error en el envío – FALLÓ (DEF-01)</figcaption></figure>
+  </div>
+</section>
+
+<section>
+  <h2>8. Recomendaciones y próximos pasos</h2>
+  <ul>
+    <li><b>Prioridad 1:</b> reactivar el backend (<code>simulador-credito-bancopichincha-back</code>) y validar CORS; volver a ejecutar la suite completa.</li>
+    <li><b>Prioridad 2:</b> corregir el cálculo y la presentación de la cuota y los seguros en Resultados (DEF-02).</li>
+    <li>Agregar validaciones de obligatoriedad y formato en Capacidades (cédula ecuatoriana, correo, celular +593).</li>
+    <li>Conservar los datos del asistente cuando falla el envío, para que el cliente pueda reintentar.</li>
+    <li>Ampliar la automatización con escenarios negativos y data-driven (pareja/apartamento, otras ciudades y plazos, empleado/independiente/empresario).</li>
+  </ul>
+</section>
+
+<footer>
+  Artefactos de la ejecución: <a href="Reporte_detallado_Katalon.html">Reporte detallado de Katalon (paso a paso)</a> ·
+  <a href="JUnit_Report.xml">JUnit_Report.xml</a> · Proyecto: <code>PichinchaKatalon.prj</code> · Suite: <code>Test Suites/TS_SimuladorHipotecario</code> ·
+  Ejecución original: <code>Reports/20261030_103747</code> · Informe anterior: <a href="../2026-10-30_SimuladorHipotecario/Informe_Ejecutivo_SimuladorHipotecario.html">Ejecución 1</a>
+</footer>
+
+</div>
+</body>
+</html>

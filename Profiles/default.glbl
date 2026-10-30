@@ -14,4 +14,9 @@
       <initValue>30</initValue>
       <name>timeout</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>URL del simulador de crédito hipotecario</description>
+      <initValue>'https://brave-mud-0605ba20f.3.azurestaticapps.net/'</initValue>
+      <name>urlSimulador</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

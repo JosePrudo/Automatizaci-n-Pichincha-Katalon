@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sección 6 Contacto: diligencia preferencias y avanza a Confirmación</description>
+   <name>TC06_Contacto</name>
+   <tag>simulador,flujo-basico</tag>
+   <comment></comment>
+   <testCaseGuid>d1000001-0000-4000-8000-000000000006</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_SimuladorHipotecario" time="208.282" tests="7" passed="5" failures="2" errors="0" incompleted="0" skipped="0">
+   <testsuite name="TS_SimuladorHipotecario" tests="7" passed="5" failures="2" errors="0" incompleted="0" skipped="0" time="208.282" timestamp="2026-10-30T15:25:17.674Z" hostname="jose.padilla - SWO5CD60353ZY" id="Test Suites/TS_SimuladorHipotecario" status="FAILED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512"/>
+         <property name="logFiles" value="C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\console0.log, C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\1793373936860.png, C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\1793373955108.png, C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\1793373979255.png, C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\1793374006057.png, C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\1793374048639.png, C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\1793374081022.png, C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\1793374122934.png, C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\1793374124797.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="jose.padilla - SWO5CD60353ZY"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.7.0"/>
+         <property name="browser" value="Chrome 156.0.8078.74"/>
+         <property name="userFullName" value="jose.padilla"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="4cd1648da797e1da818ba7c8c10242fd"/>
+         <property name="projectName" value="PichinchaKatalon"/>
+         <property name="seleniumVersion" value="4.46.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/SimuladorHipotecario/TC01_Proyecto" time="20.92" classname="Test Cases/SimuladorHipotecario/TC01_Proyecto" status="PASSED" tag="simulador,flujo-basico">
+         <system-out><![CDATA[30-10-2026T10:25:18 - [TEST_CASE][PASSED] - Test Cases/SimuladorHipotecario/TC01_Proyecto: Test Cases/SimuladorHipotecario/TC01_Proyecto
+
+30-10-2026T10:25:18 - [TEST_STEP][PASSED] - SimuladorPage.abrir(): Object '//h1[normalize-space()='Tu Credito de Vivienda']' is present
+
+30-10-2026T10:25:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T10:25:18 - [MESSAGE][WARNING] - The "Wait for network requests to finish" option is deprecated and can slow down execution. Smart Wait already waits for the target element to be ready.
+
+30-10-2026T10:25:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T10:25:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T10:25:30 - [MESSAGE][INFO] - Viewport size mismatch (1,283x667). Trying to set it again.
+
+30-10-2026T10:25:31 - [MESSAGE][WARNING] - Viewport size mismatch (1283x1283).
+
+30-10-2026T10:25:33 - [MESSAGE][PASSED] - Navigate to 'https://brave-mud-0605ba20f.3.azurestaticapps.net/' successfully
+
+30-10-2026T10:25:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+30-10-2026T10:25:33 - [MESSAGE][PASSED] - Object '//h1[normalize-space()='Tu Credito de Vivienda']' is present
+
+30-10-2026T10:25:33 - [TEST_STEP][PASSED] - SimuladorPage.verificarSeccionActiva(1): Sección activa: 1 - Proyecto
+
+30-10-2026T10:25:34 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='1']' is present
+
+30-10-2026T10:25:34 - [MESSAGE][INFO] - Sección activa: 1 - Proyecto
+
+30-10-2026T10:25:34 - [TEST_STEP][PASSED] - SimuladorPage.verificarTitulo("Tu proyecto de vivienda"): Object '//main//h2[normalize-space()='Tu proyecto de vivienda']' is present
+
+30-10-2026T10:25:34 - [MESSAGE][PASSED] - Object '//main//h2[normalize-space()='Tu proyecto de vivienda']' is present
+
+30-10-2026T10:25:34 - [TEST_STEP][PASSED] - SimuladorPage.verificarSiguienteDeshabilitado(): Object '//main//button[normalize-space()='Siguiente']' has attribute 'disabled'
+
+30-10-2026T10:25:34 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' has attribute 'disabled'
+
+30-10-2026T10:25:34 - [TEST_STEP][PASSED] - SimuladorPage.completarProyecto("individual", "casa", "Quito"): All options with label 'Quito' are selected in object 'main select' 
+
+30-10-2026T10:25:35 - [MESSAGE][PASSED] - Object: '#individual' is clicked on
+
+30-10-2026T10:25:35 - [MESSAGE][PASSED] - Object: '#casa' is clicked on
+
+30-10-2026T10:25:36 - [MESSAGE][PASSED] - All options with label 'Quito' are selected in object 'main select' 
+
+30-10-2026T10:25:36 - [TEST_STEP][PASSED] - SimuladorPage.verificarSiguienteHabilitado(): Object '//main//button[normalize-space()='Siguiente']' does not have attribute 'disabled'
+
+30-10-2026T10:25:36 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' does not have attribute 'disabled'
+
+30-10-2026T10:25:36 - [TEST_STEP][PASSED] - SimuladorPage.evidencia("Sección 1 - Proyecto diligenciada"): Evidencia capturada: Sección 1 - Proyecto diligenciada
+
+30-10-2026T10:25:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\1793373936860.png]]
+
+30-10-2026T10:25:37 - [MESSAGE][INFO] - Evidencia capturada: Sección 1 - Proyecto diligenciada
+
+30-10-2026T10:25:37 - [TEST_STEP][PASSED] - SimuladorPage.siguiente(): Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:25:37 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:25:37 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:25:37 - [TEST_STEP][PASSED] - SimuladorPage.verificarSeccionActiva(2): Sección activa: 2 - Finanzas
+
+30-10-2026T10:25:38 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='2']' is present
+
+30-10-2026T10:25:38 - [MESSAGE][INFO] - Sección activa: 2 - Finanzas
+
+30-10-2026T10:25:38 - [TEST_STEP][PASSED] - SimuladorPage.verificarTitulo("Tu situación financiera"): Object '//main//h2[normalize-space()='Tu situación financiera']' is present
+
+30-10-2026T10:25:38 - [MESSAGE][PASSED] - Object '//main//h2[normalize-space()='Tu situación financiera']' is present
+
+30-10-2026T10:25:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T10:25:38 - [MESSAGE][PASSED] - Browser is closed
+
+30-10-2026T10:25:38 - [TEST_STEP][PASSED] - Start tear down : cerrarNavegador: Method 'cerrarNavegador' complete successfully
+
+30-10-2026T10:25:39 - [TEST_STEP][PASSED] - closeBrowser(OPTIONAL): Browser is closed
+
+30-10-2026T10:25:39 - [MESSAGE][PASSED] - Browser is closed
+
+30-10-2026T10:25:39 - [MESSAGE][PASSED] - Method 'cerrarNavegador' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SimuladorHipotecario/TC02_Finanzas" time="18.543" classname="Test Cases/SimuladorHipotecario/TC02_Finanzas" status="PASSED" tag="simulador,flujo-basico">
+         <system-out><![CDATA[30-10-2026T10:25:39 - [TEST_CASE][PASSED] - Test Cases/SimuladorHipotecario/TC02_Finanzas: Test Cases/SimuladorHipotecario/TC02_Finanzas
+
+30-10-2026T10:25:39 - [TEST_STEP][PASSED] - SimuladorPage.navegarHastaSeccion(2): Sección activa: 2 - Finanzas
+
+30-10-2026T10:25:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T10:25:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T10:25:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T10:25:44 - [MESSAGE][INFO] - Viewport size mismatch (1,283x667). Trying to set it again.
+
+30-10-2026T10:25:46 - [MESSAGE][WARNING] - Viewport size mismatch (1283x1283).
+
+30-10-2026T10:25:47 - [MESSAGE][PASSED] - Navigate to 'https://brave-mud-0605ba20f.3.azurestaticapps.net/' successfully
+
+30-10-2026T10:25:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+30-10-2026T10:25:47 - [MESSAGE][PASSED] - Object '//h1[normalize-space()='Tu Credito de Vivienda']' is present
+
+30-10-2026T10:25:48 - [MESSAGE][PASSED] - Object: '#individual' is clicked on
+
+30-10-2026T10:25:48 - [MESSAGE][PASSED] - Object: '#casa' is clicked on
+
+30-10-2026T10:25:49 - [MESSAGE][PASSED] - All options with label 'Quito' are selected in object 'main select' 
+
+30-10-2026T10:25:49 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:25:50 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:25:50 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='2']' is present
+
+30-10-2026T10:25:50 - [MESSAGE][INFO] - Sección activa: 2 - Finanzas
+
+30-10-2026T10:25:50 - [TEST_STEP][PASSED] - SimuladorPage.verificarTitulo("Tu situación financiera"): Object '//main//h2[normalize-space()='Tu situación financiera']' is present
+
+30-10-2026T10:25:50 - [MESSAGE][PASSED] - Object '//main//h2[normalize-space()='Tu situación financiera']' is present
+
+30-10-2026T10:25:50 - [TEST_STEP][PASSED] - SimuladorPage.verificarSiguienteDeshabilitado(): Object '//main//button[normalize-space()='Siguiente']' has attribute 'disabled'
+
+30-10-2026T10:25:51 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' has attribute 'disabled'
+
+30-10-2026T10:25:51 - [TEST_STEP][PASSED] - SimuladorPage.completarFinanzas("independiente", "2500", "30000", "1985-08-20", "Casado"): All options with label 'Casado' are selected in object 'main select' 
+
+30-10-2026T10:25:51 - [MESSAGE][PASSED] - Object: '#independiente' is clicked on
+
+30-10-2026T10:25:52 - [MESSAGE][PASSED] - Text '2500' is set on object 'input[placeholder='Ingresos netos']'
+
+30-10-2026T10:25:52 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'input[placeholder='Ingresos netos']'
+
+30-10-2026T10:25:53 - [MESSAGE][PASSED] - Text '30000' is set on object 'input[placeholder='Total ahorrado']'
+
+30-10-2026T10:25:54 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'input[placeholder='Total ahorrado']'
+
+30-10-2026T10:25:54 - [MESSAGE][PASSED] - Execute JavaScript '
+			const e = document.querySelector("main input[type='date']");
+			e.value = arguments[0];
+			e.dispatchEvent(new Event('input', {bubbles: true}));
+			e.dispatchEvent(new Event('change', {bubbles: true}));
+			e.dispatchEvent(new Event('blur'));
+		' successfully
+
+30-10-2026T10:25:54 - [MESSAGE][PASSED] - All options with label 'Casado' are selected in object 'main select' 
+
+30-10-2026T10:25:54 - [TEST_STEP][PASSED] - SimuladorPage.verificarSiguienteHabilitado(): Object '//main//button[normalize-space()='Siguiente']' does not have attribute 'disabled'
+
+30-10-2026T10:25:55 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' does not have attribute 'disabled'
+
+30-10-2026T10:25:55 - [TEST_STEP][PASSED] - SimuladorPage.evidencia("Sección 2 - Finanzas diligenciada"): Evidencia capturada: Sección 2 - Finanzas diligenciada
+
+30-10-2026T10:25:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\1793373955108.png]]
+
+30-10-2026T10:25:55 - [MESSAGE][INFO] - Evidencia capturada: Sección 2 - Finanzas diligenciada
+
+30-10-2026T10:25:55 - [TEST_STEP][PASSED] - SimuladorPage.siguiente(): Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:25:55 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:25:56 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:25:56 - [TEST_STEP][PASSED] - SimuladorPage.verificarSeccionActiva(3): Sección activa: 3 - Personaliza
+
+30-10-2026T10:25:56 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='3']' is present
+
+30-10-2026T10:25:56 - [MESSAGE][INFO] - Sección activa: 3 - Personaliza
+
+30-10-2026T10:25:56 - [TEST_STEP][PASSED] - SimuladorPage.verificarTitulo("Personaliza tu crédito de vivienda"): Object '//main//h2[normalize-space()='Personaliza tu crédito de vivienda']' is present
+
+30-10-2026T10:25:57 - [MESSAGE][PASSED] - Object '//main//h2[normalize-space()='Personaliza tu crédito de vivienda']' is present
+
+30-10-2026T10:25:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T10:25:57 - [MESSAGE][PASSED] - Browser is closed
+
+30-10-2026T10:25:57 - [TEST_STEP][PASSED] - Start tear down : cerrarNavegador: Method 'cerrarNavegador' complete successfully
+
+30-10-2026T10:25:57 - [TEST_STEP][PASSED] - closeBrowser(OPTIONAL): Browser is closed
+
+30-10-2026T10:25:57 - [MESSAGE][PASSED] - Browser is closed
+
+30-10-2026T10:25:57 - [MESSAGE][PASSED] - Method 'cerrarNavegador' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SimuladorHipotecario/TC03_Personaliza" time="24.091" classname="Test Cases/SimuladorHipotecario/TC03_Personaliza" status="PASSED" tag="simulador,flujo-basico">
+         <system-out><![CDATA[30-10-2026T10:25:57 - [TEST_CASE][PASSED] - Test Cases/SimuladorHipotecario/TC03_Personaliza: Test Cases/SimuladorHipotecario/TC03_Personaliza
+
+30-10-2026T10:25:57 - [TEST_STEP][PASSED] - SimuladorPage.navegarHastaSeccion(3): Sección activa: 3 - Personaliza
+
+30-10-2026T10:25:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T10:25:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T10:26:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T10:26:04 - [MESSAGE][INFO] - Viewport size mismatch (1,283x667). Trying to set it again.
+
+30-10-2026T10:26:05 - [MESSAGE][WARNING] - Viewport size mismatch (1283x1283).
+
+30-10-2026T10:26:07 - [MESSAGE][PASSED] - Navigate to 'https://brave-mud-0605ba20f.3.azurestaticapps.net/' successfully
+
+30-10-2026T10:26:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+30-10-2026T10:26:08 - [MESSAGE][PASSED] - Object '//h1[normalize-space()='Tu Credito de Vivienda']' is present
+
+30-10-2026T10:26:08 - [MESSAGE][PASSED] - Object: '#individual' is clicked on
+
+30-10-2026T10:26:08 - [MESSAGE][PASSED] - Object: '#casa' is clicked on
+
+30-10-2026T10:26:09 - [MESSAGE][PASSED] - All options with label 'Quito' are selected in object 'main select' 
+
+30-10-2026T10:26:10 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:26:10 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:26:11 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='2']' is present
+
+30-10-2026T10:26:11 - [MESSAGE][INFO] - Sección activa: 2 - Finanzas
+
+30-10-2026T10:26:11 - [MESSAGE][PASSED] - Object: '#empleado' is clicked on
+
+30-10-2026T10:26:12 - [MESSAGE][PASSED] - Text '3000' is set on object 'input[placeholder='Ingresos netos']'
+
+30-10-2026T10:26:13 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'input[placeholder='Ingresos netos']'
+
+30-10-2026T10:26:13 - [MESSAGE][PASSED] - Text '40000' is set on object 'input[placeholder='Total ahorrado']'
+
+30-10-2026T10:26:14 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'input[placeholder='Total ahorrado']'
+
+30-10-2026T10:26:14 - [MESSAGE][PASSED] - Execute JavaScript '
+			const e = document.querySelector("main input[type='date']");
+			e.value = arguments[0];
+			e.dispatchEvent(new Event('input', {bubbles: true}));
+			e.dispatchEvent(new Event('change', {bubbles: true}));
+			e.dispatchEvent(new Event('blur'));
+		' successfully
+
+30-10-2026T10:26:14 - [MESSAGE][PASSED] - All options with label 'Soltero' are selected in object 'main select' 
+
+30-10-2026T10:26:15 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:26:15 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:26:16 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='3']' is present
+
+30-10-2026T10:26:16 - [MESSAGE][INFO] - Sección activa: 3 - Personaliza
+
+30-10-2026T10:26:16 - [TEST_STEP][PASSED] - SimuladorPage.verificarTitulo("Personaliza tu crédito de vivienda"): Object '//main//h2[normalize-space()='Personaliza tu crédito de vivienda']' is present
+
+30-10-2026T10:26:16 - [MESSAGE][PASSED] - Object '//main//h2[normalize-space()='Personaliza tu crédito de vivienda']' is present
+
+30-10-2026T10:26:16 - [TEST_STEP][PASSED] - SimuladorPage.verificarSiguienteDeshabilitado(): Object '//main//button[normalize-space()='Siguiente']' has attribute 'disabled'
+
+30-10-2026T10:26:16 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' has attribute 'disabled'
+
+30-10-2026T10:26:16 - [TEST_STEP][PASSED] - SimuladorPage.completarPersonaliza("120000", "15 años", "variable"): Object: '#variable' is clicked on
+
+30-10-2026T10:26:17 - [MESSAGE][PASSED] - Text '120000' is set on object 'input[placeholder='Monto total del préstamo']'
+
+30-10-2026T10:26:17 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'input[placeholder='Monto total del préstamo']'
+
+30-10-2026T10:26:18 - [MESSAGE][PASSED] - All options with label '15 años' are selected in object 'main select' 
+
+30-10-2026T10:26:18 - [MESSAGE][PASSED] - Object: '#variable' is clicked on
+
+30-10-2026T10:26:18 - [TEST_STEP][PASSED] - SimuladorPage.verificarSiguienteHabilitado(): Object '//main//button[normalize-space()='Siguiente']' does not have attribute 'disabled'
+
+30-10-2026T10:26:19 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' does not have attribute 'disabled'
+
+30-10-2026T10:26:19 - [TEST_STEP][PASSED] - SimuladorPage.evidencia("Sección 3 - Personaliza diligenciada"): Evidencia capturada: Sección 3 - Personaliza diligenciada
+
+30-10-2026T10:26:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\1793373979255.png]]
+
+30-10-2026T10:26:19 - [MESSAGE][INFO] - Evidencia capturada: Sección 3 - Personaliza diligenciada
+
+30-10-2026T10:26:19 - [TEST_STEP][PASSED] - SimuladorPage.siguiente(): Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:26:19 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:26:20 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:26:20 - [TEST_STEP][PASSED] - SimuladorPage.verificarSeccionActiva(4): Sección activa: 4 - Resultados
+
+30-10-2026T10:26:20 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='4']' is present
+
+30-10-2026T10:26:20 - [MESSAGE][INFO] - Sección activa: 4 - Resultados
+
+30-10-2026T10:26:20 - [TEST_STEP][PASSED] - SimuladorPage.verificarTitulo("Tus resultados"): Object '//main//h2[normalize-space()='Tus resultados']' is present
+
+30-10-2026T10:26:21 - [MESSAGE][PASSED] - Object '//main//h2[normalize-space()='Tus resultados']' is present
+
+30-10-2026T10:26:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T10:26:21 - [MESSAGE][PASSED] - Browser is closed
+
+30-10-2026T10:26:21 - [TEST_STEP][PASSED] - Start tear down : cerrarNavegador: Method 'cerrarNavegador' complete successfully
+
+30-10-2026T10:26:21 - [TEST_STEP][PASSED] - closeBrowser(OPTIONAL): Browser is closed
+
+30-10-2026T10:26:21 - [MESSAGE][PASSED] - Browser is closed
+
+30-10-2026T10:26:21 - [MESSAGE][PASSED] - Method 'cerrarNavegador' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SimuladorHipotecario/TC04_Resultados" time="32.497" classname="Test Cases/SimuladorHipotecario/TC04_Resultados" status="FAILED" tag="simulador,flujo-basico">
+         <failure type="FAILED" message="Test Cases/SimuladorHipotecario/TC04_Resultados FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: La sección Resultados no muestra la cuota mensual ni el costo de los seguros&#xa;	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)&#xa;	at TC04_Resultados.run(TC04_Resultados:14)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)&#xa;	at S1030_1.run(S1030_1.groovy:41)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;"/>
+         <system-out><![CDATA[30-10-2026T10:26:21 - [TEST_CASE][FAILED] - Test Cases/SimuladorHipotecario/TC04_Resultados: Test Cases/SimuladorHipotecario/TC04_Resultados FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: La sección Resultados no muestra la cuota mensual ni el costo de los seguros
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at TC04_Resultados.run(TC04_Resultados:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1030_1.run(S1030_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+30-10-2026T10:26:22 - [TEST_STEP][PASSED] - SimuladorPage.navegarHastaSeccion(4): Sección activa: 4 - Resultados
+
+30-10-2026T10:26:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T10:26:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T10:26:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T10:26:30 - [MESSAGE][INFO] - Viewport size mismatch (1,283x667). Trying to set it again.
+
+30-10-2026T10:26:31 - [MESSAGE][WARNING] - Viewport size mismatch (1283x1283).
+
+30-10-2026T10:26:33 - [MESSAGE][PASSED] - Navigate to 'https://brave-mud-0605ba20f.3.azurestaticapps.net/' successfully
+
+30-10-2026T10:26:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+30-10-2026T10:26:34 - [MESSAGE][PASSED] - Object '//h1[normalize-space()='Tu Credito de Vivienda']' is present
+
+30-10-2026T10:26:34 - [MESSAGE][PASSED] - Object: '#individual' is clicked on
+
+30-10-2026T10:26:35 - [MESSAGE][PASSED] - Object: '#casa' is clicked on
+
+30-10-2026T10:26:36 - [MESSAGE][PASSED] - All options with label 'Quito' are selected in object 'main select' 
+
+30-10-2026T10:26:36 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:26:36 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:26:37 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='2']' is present
+
+30-10-2026T10:26:37 - [MESSAGE][INFO] - Sección activa: 2 - Finanzas
+
+30-10-2026T10:26:37 - [MESSAGE][PASSED] - Object: '#empleado' is clicked on
+
+30-10-2026T10:26:38 - [MESSAGE][PASSED] - Text '3000' is set on object 'input[placeholder='Ingresos netos']'
+
+30-10-2026T10:26:39 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'input[placeholder='Ingresos netos']'
+
+30-10-2026T10:26:40 - [MESSAGE][PASSED] - Text '40000' is set on object 'input[placeholder='Total ahorrado']'
+
+30-10-2026T10:26:40 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'input[placeholder='Total ahorrado']'
+
+30-10-2026T10:26:40 - [MESSAGE][PASSED] - Execute JavaScript '
+			const e = document.querySelector("main input[type='date']");
+			e.value = arguments[0];
+			e.dispatchEvent(new Event('input', {bubbles: true}));
+			e.dispatchEvent(new Event('change', {bubbles: true}));
+			e.dispatchEvent(new Event('blur'));
+		' successfully
+
+30-10-2026T10:26:41 - [MESSAGE][PASSED] - All options with label 'Soltero' are selected in object 'main select' 
+
+30-10-2026T10:26:41 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:26:41 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:26:42 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='3']' is present
+
+30-10-2026T10:26:42 - [MESSAGE][INFO] - Sección activa: 3 - Personaliza
+
+30-10-2026T10:26:43 - [MESSAGE][PASSED] - Text '150000' is set on object 'input[placeholder='Monto total del préstamo']'
+
+30-10-2026T10:26:43 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'input[placeholder='Monto total del préstamo']'
+
+30-10-2026T10:26:44 - [MESSAGE][PASSED] - All options with label '20 años' are selected in object 'main select' 
+
+30-10-2026T10:26:44 - [MESSAGE][PASSED] - Object: '#fija' is clicked on
+
+30-10-2026T10:26:44 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:26:45 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:26:45 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='4']' is present
+
+30-10-2026T10:26:45 - [MESSAGE][INFO] - Sección activa: 4 - Resultados
+
+30-10-2026T10:26:45 - [TEST_STEP][PASSED] - SimuladorPage.verificarTitulo("Tus resultados"): Object '//main//h2[normalize-space()='Tus resultados']' is present
+
+30-10-2026T10:26:45 - [MESSAGE][PASSED] - Object '//main//h2[normalize-space()='Tus resultados']' is present
+
+30-10-2026T10:26:45 - [TEST_STEP][PASSED] - SimuladorPage.verificarTexto("Aquí ve su cuota y los seguros"): Object '//main//*[contains(normalize-space(),"Aquí ve su cuota y los seguros")]' is present
+
+30-10-2026T10:26:46 - [MESSAGE][PASSED] - Object '//main//*[contains(normalize-space(),"Aquí ve su cuota y los seguros")]' is present
+
+30-10-2026T10:26:46 - [TEST_STEP][PASSED] - SimuladorPage.evidencia("Sección 4 - Resultados"): Evidencia capturada: Sección 4 - Resultados
+
+30-10-2026T10:26:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\1793374006057.png]]
+
+30-10-2026T10:26:46 - [MESSAGE][INFO] - Evidencia capturada: Sección 4 - Resultados
+
+30-10-2026T10:26:46 - [TEST_STEP][WARNING] - muestraMonto = verifyElementPresent(SimuladorPage.xpath("//main//*[contains(text(),\"$\")]"), 5, OPTIONAL): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//main//*[contains(text(),"$")]' located by 'By.xpath: //main//*[contains(text(),"$")]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//main//*[contains(text(),"$")]' located by 'By.xpath: //main//*[contains(text(),"$")]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1550)
+	at TC04_Resultados.run(TC04_Resultados:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1030_1.run(S1030_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+30-10-2026T10:26:51 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//main//*[contains(text(),"$")]' located by 'By.xpath: //main//*[contains(text(),"$")]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//main//*[contains(text(),"$")]' located by 'By.xpath: //main//*[contains(text(),"$")]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1550)
+	at TC04_Resultados.run(TC04_Resultados:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1030_1.run(S1030_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+30-10-2026T10:26:51 - [TEST_STEP][FAILED] - if (!(muestraMonto)): La sección Resultados no muestra la cuota mensual ni el costo de los seguros
+
+30-10-2026T10:26:51 - [TEST_STEP][FAILED] - markFailed("La sección Resultados no muestra la cuota mensual ni el costo de los seguros"): La sección Resultados no muestra la cuota mensual ni el costo de los seguros
+
+30-10-2026T10:26:51 - [MESSAGE][FAILED] - La sección Resultados no muestra la cuota mensual ni el costo de los seguros
+
+30-10-2026T10:26:51 - [TEST_STEP][PASSED] - SimuladorPage.verificarSiguienteHabilitado(): Object '//main//button[normalize-space()='Siguiente']' does not have attribute 'disabled'
+
+30-10-2026T10:26:51 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' does not have attribute 'disabled'
+
+30-10-2026T10:26:51 - [TEST_STEP][PASSED] - SimuladorPage.siguiente(): Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:26:52 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:26:52 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:26:52 - [TEST_STEP][PASSED] - SimuladorPage.verificarSeccionActiva(5): Sección activa: 5 - Capacidades
+
+30-10-2026T10:26:53 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='5']' is present
+
+30-10-2026T10:26:53 - [MESSAGE][INFO] - Sección activa: 5 - Capacidades
+
+30-10-2026T10:26:53 - [TEST_STEP][PASSED] - SimuladorPage.verificarTitulo("Tu capacidad real"): Object '//main//h2[normalize-space()='Tu capacidad real']' is present
+
+30-10-2026T10:26:53 - [MESSAGE][PASSED] - Object '//main//h2[normalize-space()='Tu capacidad real']' is present
+
+30-10-2026T10:26:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T10:26:54 - [MESSAGE][PASSED] - Browser is closed
+
+30-10-2026T10:26:54 - [TEST_STEP][PASSED] - Start tear down : cerrarNavegador: Method 'cerrarNavegador' complete successfully
+
+30-10-2026T10:26:54 - [TEST_STEP][PASSED] - closeBrowser(OPTIONAL): Browser is closed
+
+30-10-2026T10:26:54 - [MESSAGE][PASSED] - Browser is closed
+
+30-10-2026T10:26:54 - [MESSAGE][PASSED] - Method 'cerrarNavegador' complete successfully]]></system-out>
+         <system-err><![CDATA[30-10-2026T10:26:21 - [TEST_CASE][FAILED] - Test Cases/SimuladorHipotecario/TC04_Resultados: Test Cases/SimuladorHipotecario/TC04_Resultados FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: La sección Resultados no muestra la cuota mensual ni el costo de los seguros
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at TC04_Resultados.run(TC04_Resultados:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1030_1.run(S1030_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SimuladorHipotecario/TC05_Capacidades" time="36.595" classname="Test Cases/SimuladorHipotecario/TC05_Capacidades" status="PASSED" tag="simulador,flujo-basico">
+         <system-out><![CDATA[30-10-2026T10:26:54 - [TEST_CASE][PASSED] - Test Cases/SimuladorHipotecario/TC05_Capacidades: Test Cases/SimuladorHipotecario/TC05_Capacidades
+
+30-10-2026T10:26:54 - [TEST_STEP][PASSED] - SimuladorPage.navegarHastaSeccion(5): Sección activa: 5 - Capacidades
+
+30-10-2026T10:26:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T10:26:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T10:27:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T10:27:09 - [MESSAGE][INFO] - Viewport size mismatch (1,283x667). Trying to set it again.
+
+30-10-2026T10:27:10 - [MESSAGE][WARNING] - Viewport size mismatch (1283x1283).
+
+30-10-2026T10:27:12 - [MESSAGE][PASSED] - Navigate to 'https://brave-mud-0605ba20f.3.azurestaticapps.net/' successfully
+
+30-10-2026T10:27:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+30-10-2026T10:27:12 - [MESSAGE][PASSED] - Object '//h1[normalize-space()='Tu Credito de Vivienda']' is present
+
+30-10-2026T10:27:13 - [MESSAGE][PASSED] - Object: '#individual' is clicked on
+
+30-10-2026T10:27:13 - [MESSAGE][PASSED] - Object: '#casa' is clicked on
+
+30-10-2026T10:27:14 - [MESSAGE][PASSED] - All options with label 'Quito' are selected in object 'main select' 
+
+30-10-2026T10:27:14 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:27:14 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:27:15 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='2']' is present
+
+30-10-2026T10:27:15 - [MESSAGE][INFO] - Sección activa: 2 - Finanzas
+
+30-10-2026T10:27:15 - [MESSAGE][PASSED] - Object: '#empleado' is clicked on
+
+30-10-2026T10:27:16 - [MESSAGE][PASSED] - Text '3000' is set on object 'input[placeholder='Ingresos netos']'
+
+30-10-2026T10:27:16 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'input[placeholder='Ingresos netos']'
+
+30-10-2026T10:27:17 - [MESSAGE][PASSED] - Text '40000' is set on object 'input[placeholder='Total ahorrado']'
+
+30-10-2026T10:27:17 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'input[placeholder='Total ahorrado']'
+
+30-10-2026T10:27:17 - [MESSAGE][PASSED] - Execute JavaScript '
+			const e = document.querySelector("main input[type='date']");
+			e.value = arguments[0];
+			e.dispatchEvent(new Event('input', {bubbles: true}));
+			e.dispatchEvent(new Event('change', {bubbles: true}));
+			e.dispatchEvent(new Event('blur'));
+		' successfully
+
+30-10-2026T10:27:18 - [MESSAGE][PASSED] - All options with label 'Soltero' are selected in object 'main select' 
+
+30-10-2026T10:27:18 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:27:18 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:27:19 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='3']' is present
+
+30-10-2026T10:27:19 - [MESSAGE][INFO] - Sección activa: 3 - Personaliza
+
+30-10-2026T10:27:20 - [MESSAGE][PASSED] - Text '150000' is set on object 'input[placeholder='Monto total del préstamo']'
+
+30-10-2026T10:27:20 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'input[placeholder='Monto total del préstamo']'
+
+30-10-2026T10:27:20 - [MESSAGE][PASSED] - All options with label '20 años' are selected in object 'main select' 
+
+30-10-2026T10:27:21 - [MESSAGE][PASSED] - Object: '#fija' is clicked on
+
+30-10-2026T10:27:21 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:27:22 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:27:22 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='4']' is present
+
+30-10-2026T10:27:22 - [MESSAGE][INFO] - Sección activa: 4 - Resultados
+
+30-10-2026T10:27:22 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:27:23 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:27:23 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='5']' is present
+
+30-10-2026T10:27:23 - [MESSAGE][INFO] - Sección activa: 5 - Capacidades
+
+30-10-2026T10:27:23 - [TEST_STEP][PASSED] - SimuladorPage.verificarTitulo("Tu capacidad real"): Object '//main//h2[normalize-space()='Tu capacidad real']' is present
+
+30-10-2026T10:27:23 - [MESSAGE][PASSED] - Object '//main//h2[normalize-space()='Tu capacidad real']' is present
+
+30-10-2026T10:27:23 - [TEST_STEP][PASSED] - SimuladorPage.completarCapacidades("María López Prueba", "1710034065", "maria.prueba@example.com", "0987654321", "1", "Tecnología Demo S.A."): Text 'Tecnología Demo S.A.' is set on object 'input[placeholder='Compañía de tecnología S.A.S']'
+
+30-10-2026T10:27:24 - [MESSAGE][PASSED] - Text 'María López Prueba' is set on object 'input[placeholder='Nombre completo']'
+
+30-10-2026T10:27:25 - [MESSAGE][PASSED] - Text '1710034065' is set on object 'input[placeholder='Documento de identidad']'
+
+30-10-2026T10:27:26 - [MESSAGE][PASSED] - Text 'maria.prueba@example.com' is set on object 'main input[type='email']'
+
+30-10-2026T10:27:26 - [MESSAGE][PASSED] - Text '0987654321' is set on object 'main input[type='tel']'
+
+30-10-2026T10:27:27 - [MESSAGE][PASSED] - Object '#authorizeCreditCheck' is checked
+
+30-10-2026T10:27:27 - [MESSAGE][PASSED] - Text '1' is set on object 'input[placeholder='Cargas familiares']'
+
+30-10-2026T10:27:28 - [MESSAGE][PASSED] - Text 'Tecnología Demo S.A.' is set on object 'input[placeholder='Compañía de tecnología S.A.S']'
+
+30-10-2026T10:27:28 - [TEST_STEP][PASSED] - SimuladorPage.verificarSiguienteHabilitado(): Object '//main//button[normalize-space()='Siguiente']' does not have attribute 'disabled'
+
+30-10-2026T10:27:28 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' does not have attribute 'disabled'
+
+30-10-2026T10:27:28 - [TEST_STEP][PASSED] - SimuladorPage.evidencia("Sección 5 - Capacidades diligenciada"): Evidencia capturada: Sección 5 - Capacidades diligenciada
+
+30-10-2026T10:27:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\1793374048639.png]]
+
+30-10-2026T10:27:28 - [MESSAGE][INFO] - Evidencia capturada: Sección 5 - Capacidades diligenciada
+
+30-10-2026T10:27:28 - [TEST_STEP][PASSED] - SimuladorPage.siguiente(): Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:27:29 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:27:29 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:27:29 - [TEST_STEP][PASSED] - SimuladorPage.verificarSeccionActiva(6): Sección activa: 6 - Contacto
+
+30-10-2026T10:27:30 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='6']' is present
+
+30-10-2026T10:27:30 - [MESSAGE][INFO] - Sección activa: 6 - Contacto
+
+30-10-2026T10:27:30 - [TEST_STEP][PASSED] - SimuladorPage.verificarTexto("¿Cómo prefieres que te contactemos?"): Object '//main//*[contains(normalize-space(),"¿Cómo prefieres que te contactemos?")]' is present
+
+30-10-2026T10:27:30 - [MESSAGE][PASSED] - Object '//main//*[contains(normalize-space(),"¿Cómo prefieres que te contactemos?")]' is present
+
+30-10-2026T10:27:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T10:27:30 - [MESSAGE][PASSED] - Browser is closed
+
+30-10-2026T10:27:30 - [TEST_STEP][PASSED] - Start tear down : cerrarNavegador: Method 'cerrarNavegador' complete successfully
+
+30-10-2026T10:27:30 - [TEST_STEP][PASSED] - closeBrowser(OPTIONAL): Browser is closed
+
+30-10-2026T10:27:30 - [MESSAGE][PASSED] - Browser is closed
+
+30-10-2026T10:27:30 - [MESSAGE][PASSED] - Method 'cerrarNavegador' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SimuladorHipotecario/TC06_Contacto" time="32.252" classname="Test Cases/SimuladorHipotecario/TC06_Contacto" status="PASSED" tag="simulador,flujo-basico">
+         <system-out><![CDATA[30-10-2026T10:27:30 - [TEST_CASE][PASSED] - Test Cases/SimuladorHipotecario/TC06_Contacto: Test Cases/SimuladorHipotecario/TC06_Contacto
+
+30-10-2026T10:27:30 - [TEST_STEP][PASSED] - SimuladorPage.navegarHastaSeccion(6): Sección activa: 6 - Contacto
+
+30-10-2026T10:27:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T10:27:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T10:27:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T10:27:39 - [MESSAGE][INFO] - Viewport size mismatch (1,283x667). Trying to set it again.
+
+30-10-2026T10:27:40 - [MESSAGE][WARNING] - Viewport size mismatch (1283x1283).
+
+30-10-2026T10:27:42 - [MESSAGE][PASSED] - Navigate to 'https://brave-mud-0605ba20f.3.azurestaticapps.net/' successfully
+
+30-10-2026T10:27:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+30-10-2026T10:27:42 - [MESSAGE][PASSED] - Object '//h1[normalize-space()='Tu Credito de Vivienda']' is present
+
+30-10-2026T10:27:43 - [MESSAGE][PASSED] - Object: '#individual' is clicked on
+
+30-10-2026T10:27:43 - [MESSAGE][PASSED] - Object: '#casa' is clicked on
+
+30-10-2026T10:27:44 - [MESSAGE][PASSED] - All options with label 'Quito' are selected in object 'main select' 
+
+30-10-2026T10:27:44 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:27:44 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:27:45 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='2']' is present
+
+30-10-2026T10:27:45 - [MESSAGE][INFO] - Sección activa: 2 - Finanzas
+
+30-10-2026T10:27:45 - [MESSAGE][PASSED] - Object: '#empleado' is clicked on
+
+30-10-2026T10:27:46 - [MESSAGE][PASSED] - Text '3000' is set on object 'input[placeholder='Ingresos netos']'
+
+30-10-2026T10:27:46 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'input[placeholder='Ingresos netos']'
+
+30-10-2026T10:27:47 - [MESSAGE][PASSED] - Text '40000' is set on object 'input[placeholder='Total ahorrado']'
+
+30-10-2026T10:27:47 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'input[placeholder='Total ahorrado']'
+
+30-10-2026T10:27:47 - [MESSAGE][PASSED] - Execute JavaScript '
+			const e = document.querySelector("main input[type='date']");
+			e.value = arguments[0];
+			e.dispatchEvent(new Event('input', {bubbles: true}));
+			e.dispatchEvent(new Event('change', {bubbles: true}));
+			e.dispatchEvent(new Event('blur'));
+		' successfully
+
+30-10-2026T10:27:48 - [MESSAGE][PASSED] - All options with label 'Soltero' are selected in object 'main select' 
+
+30-10-2026T10:27:48 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:27:49 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:27:49 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='3']' is present
+
+30-10-2026T10:27:49 - [MESSAGE][INFO] - Sección activa: 3 - Personaliza
+
+30-10-2026T10:27:50 - [MESSAGE][PASSED] - Text '150000' is set on object 'input[placeholder='Monto total del préstamo']'
+
+30-10-2026T10:27:50 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'input[placeholder='Monto total del préstamo']'
+
+30-10-2026T10:27:51 - [MESSAGE][PASSED] - All options with label '20 años' are selected in object 'main select' 
+
+30-10-2026T10:27:51 - [MESSAGE][PASSED] - Object: '#fija' is clicked on
+
+30-10-2026T10:27:51 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:27:52 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:27:52 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='4']' is present
+
+30-10-2026T10:27:52 - [MESSAGE][INFO] - Sección activa: 4 - Resultados
+
+30-10-2026T10:27:53 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:27:53 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:27:53 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='5']' is present
+
+30-10-2026T10:27:53 - [MESSAGE][INFO] - Sección activa: 5 - Capacidades
+
+30-10-2026T10:27:54 - [MESSAGE][PASSED] - Text 'Juan Pérez Prueba' is set on object 'input[placeholder='Nombre completo']'
+
+30-10-2026T10:27:55 - [MESSAGE][PASSED] - Text '1710034065' is set on object 'input[placeholder='Documento de identidad']'
+
+30-10-2026T10:27:56 - [MESSAGE][PASSED] - Text 'juan.prueba@example.com' is set on object 'main input[type='email']'
+
+30-10-2026T10:27:56 - [MESSAGE][PASSED] - Text '0991234567' is set on object 'main input[type='tel']'
+
+30-10-2026T10:27:56 - [MESSAGE][PASSED] - Object '#authorizeCreditCheck' is checked
+
+30-10-2026T10:27:57 - [MESSAGE][PASSED] - Text '2' is set on object 'input[placeholder='Cargas familiares']'
+
+30-10-2026T10:27:58 - [MESSAGE][PASSED] - Text 'Empresa Demo S.A.' is set on object 'input[placeholder='Compañía de tecnología S.A.S']'
+
+30-10-2026T10:27:58 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:27:58 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:27:59 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='6']' is present
+
+30-10-2026T10:27:59 - [MESSAGE][INFO] - Sección activa: 6 - Contacto
+
+30-10-2026T10:27:59 - [TEST_STEP][PASSED] - SimuladorPage.verificarTexto("¿Cuál es el mejor horario para llamarte?"): Object '//main//*[contains(normalize-space(),"¿Cuál es el mejor horario para llamarte?")]' is present
+
+30-10-2026T10:27:59 - [MESSAGE][PASSED] - Object '//main//*[contains(normalize-space(),"¿Cuál es el mejor horario para llamarte?")]' is present
+
+30-10-2026T10:27:59 - [TEST_STEP][PASSED] - SimuladorPage.verificarTexto("¿Cómo prefieres que te contactemos?"): Object '//main//*[contains(normalize-space(),"¿Cómo prefieres que te contactemos?")]' is present
+
+30-10-2026T10:27:59 - [MESSAGE][PASSED] - Object '//main//*[contains(normalize-space(),"¿Cómo prefieres que te contactemos?")]' is present
+
+30-10-2026T10:27:59 - [TEST_STEP][PASSED] - SimuladorPage.completarContacto("tarde", "whatsapp"): Object '#acceptsPrivacyPolicy' is checked
+
+30-10-2026T10:28:00 - [MESSAGE][PASSED] - Object: '//main//input[@name='preferredTime' and @value='tarde']' is clicked on
+
+30-10-2026T10:28:00 - [MESSAGE][PASSED] - Object: '//main//input[@name='contactMethod' and @value='whatsapp']' is clicked on
+
+30-10-2026T10:28:00 - [MESSAGE][PASSED] - Object '#acceptsPrivacyPolicy' is checked
+
+30-10-2026T10:28:00 - [TEST_STEP][PASSED] - SimuladorPage.verificarSiguienteHabilitado(): Object '//main//button[normalize-space()='Siguiente']' does not have attribute 'disabled'
+
+30-10-2026T10:28:01 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' does not have attribute 'disabled'
+
+30-10-2026T10:28:01 - [TEST_STEP][PASSED] - SimuladorPage.evidencia("Sección 6 - Contacto diligenciada"): Evidencia capturada: Sección 6 - Contacto diligenciada
+
+30-10-2026T10:28:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\1793374081022.png]]
+
+30-10-2026T10:28:01 - [MESSAGE][INFO] - Evidencia capturada: Sección 6 - Contacto diligenciada
+
+30-10-2026T10:28:01 - [TEST_STEP][PASSED] - SimuladorPage.siguiente(): Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:28:01 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:28:02 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:28:02 - [TEST_STEP][PASSED] - SimuladorPage.verificarSeccionActiva(7): Sección activa: 7 - Confirmación
+
+30-10-2026T10:28:02 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='7']' is present
+
+30-10-2026T10:28:02 - [MESSAGE][INFO] - Sección activa: 7 - Confirmación
+
+30-10-2026T10:28:02 - [TEST_STEP][PASSED] - SimuladorPage.verificarTitulo("Confirmación"): Object '//main//h2[normalize-space()='Confirmación']' is present
+
+30-10-2026T10:28:02 - [MESSAGE][PASSED] - Object '//main//h2[normalize-space()='Confirmación']' is present
+
+30-10-2026T10:28:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T10:28:03 - [MESSAGE][PASSED] - Browser is closed
+
+30-10-2026T10:28:03 - [TEST_STEP][PASSED] - Start tear down : cerrarNavegador: Method 'cerrarNavegador' complete successfully
+
+30-10-2026T10:28:03 - [TEST_STEP][PASSED] - closeBrowser(OPTIONAL): Browser is closed
+
+30-10-2026T10:28:03 - [MESSAGE][PASSED] - Browser is closed
+
+30-10-2026T10:28:03 - [MESSAGE][PASSED] - Method 'cerrarNavegador' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SimuladorHipotecario/TC07_Confirmacion" time="42.8" classname="Test Cases/SimuladorHipotecario/TC07_Confirmacion" status="FAILED" tag="simulador,flujo-basico">
+         <failure type="FAILED" message="Test Cases/SimuladorHipotecario/TC07_Confirmacion FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: El envío de la simulación falló: Http failure response for https://simulador-credito-bancopichincha-back-hef4bsapdyhvgmcf.eastus2-01.azurewebsites.net/api/Simulacion/procesar: 0 Unknown Error&#xa;	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)&#xa;	at TC07_Confirmacion.run(TC07_Confirmacion:30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)&#xa;	at S1030_1.run(S1030_1.groovy:41)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;"/>
+         <system-out><![CDATA[30-10-2026T10:28:03 - [TEST_CASE][FAILED] - Test Cases/SimuladorHipotecario/TC07_Confirmacion: Test Cases/SimuladorHipotecario/TC07_Confirmacion FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: El envío de la simulación falló: Http failure response for https://simulador-credito-bancopichincha-back-hef4bsapdyhvgmcf.eastus2-01.azurewebsites.net/api/Simulacion/procesar: 0 Unknown Error
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at TC07_Confirmacion.run(TC07_Confirmacion:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1030_1.run(S1030_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+30-10-2026T10:28:03 - [TEST_STEP][PASSED] - SimuladorPage.navegarHastaSeccion(7): Sección activa: 7 - Confirmación
+
+30-10-2026T10:28:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T10:28:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T10:28:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T10:28:16 - [MESSAGE][INFO] - Viewport size mismatch (1,283x667). Trying to set it again.
+
+30-10-2026T10:28:17 - [MESSAGE][WARNING] - Viewport size mismatch (1283x1283).
+
+30-10-2026T10:28:19 - [MESSAGE][PASSED] - Navigate to 'https://brave-mud-0605ba20f.3.azurestaticapps.net/' successfully
+
+30-10-2026T10:28:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+30-10-2026T10:28:19 - [MESSAGE][PASSED] - Object '//h1[normalize-space()='Tu Credito de Vivienda']' is present
+
+30-10-2026T10:28:19 - [MESSAGE][PASSED] - Object: '#individual' is clicked on
+
+30-10-2026T10:28:20 - [MESSAGE][PASSED] - Object: '#casa' is clicked on
+
+30-10-2026T10:28:21 - [MESSAGE][PASSED] - All options with label 'Quito' are selected in object 'main select' 
+
+30-10-2026T10:28:21 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:28:22 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:28:22 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='2']' is present
+
+30-10-2026T10:28:22 - [MESSAGE][INFO] - Sección activa: 2 - Finanzas
+
+30-10-2026T10:28:23 - [MESSAGE][PASSED] - Object: '#empleado' is clicked on
+
+30-10-2026T10:28:23 - [MESSAGE][PASSED] - Text '3000' is set on object 'input[placeholder='Ingresos netos']'
+
+30-10-2026T10:28:24 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'input[placeholder='Ingresos netos']'
+
+30-10-2026T10:28:25 - [MESSAGE][PASSED] - Text '40000' is set on object 'input[placeholder='Total ahorrado']'
+
+30-10-2026T10:28:25 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'input[placeholder='Total ahorrado']'
+
+30-10-2026T10:28:25 - [MESSAGE][PASSED] - Execute JavaScript '
+			const e = document.querySelector("main input[type='date']");
+			e.value = arguments[0];
+			e.dispatchEvent(new Event('input', {bubbles: true}));
+			e.dispatchEvent(new Event('change', {bubbles: true}));
+			e.dispatchEvent(new Event('blur'));
+		' successfully
+
+30-10-2026T10:28:26 - [MESSAGE][PASSED] - All options with label 'Soltero' are selected in object 'main select' 
+
+30-10-2026T10:28:26 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:28:27 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:28:27 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='3']' is present
+
+30-10-2026T10:28:27 - [MESSAGE][INFO] - Sección activa: 3 - Personaliza
+
+30-10-2026T10:28:28 - [MESSAGE][PASSED] - Text '150000' is set on object 'input[placeholder='Monto total del préstamo']'
+
+30-10-2026T10:28:28 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'input[placeholder='Monto total del préstamo']'
+
+30-10-2026T10:28:29 - [MESSAGE][PASSED] - All options with label '20 años' are selected in object 'main select' 
+
+30-10-2026T10:28:29 - [MESSAGE][PASSED] - Object: '#fija' is clicked on
+
+30-10-2026T10:28:30 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:28:30 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:28:30 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='4']' is present
+
+30-10-2026T10:28:30 - [MESSAGE][INFO] - Sección activa: 4 - Resultados
+
+30-10-2026T10:28:31 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:28:31 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:28:32 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='5']' is present
+
+30-10-2026T10:28:32 - [MESSAGE][INFO] - Sección activa: 5 - Capacidades
+
+30-10-2026T10:28:32 - [MESSAGE][PASSED] - Text 'Juan Pérez Prueba' is set on object 'input[placeholder='Nombre completo']'
+
+30-10-2026T10:28:33 - [MESSAGE][PASSED] - Text '1710034065' is set on object 'input[placeholder='Documento de identidad']'
+
+30-10-2026T10:28:34 - [MESSAGE][PASSED] - Text 'juan.prueba@example.com' is set on object 'main input[type='email']'
+
+30-10-2026T10:28:35 - [MESSAGE][PASSED] - Text '0991234567' is set on object 'main input[type='tel']'
+
+30-10-2026T10:28:35 - [MESSAGE][PASSED] - Object '#authorizeCreditCheck' is checked
+
+30-10-2026T10:28:36 - [MESSAGE][PASSED] - Text '2' is set on object 'input[placeholder='Cargas familiares']'
+
+30-10-2026T10:28:37 - [MESSAGE][PASSED] - Text 'Empresa Demo S.A.' is set on object 'input[placeholder='Compañía de tecnología S.A.S']'
+
+30-10-2026T10:28:38 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:28:38 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:28:39 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='6']' is present
+
+30-10-2026T10:28:39 - [MESSAGE][INFO] - Sección activa: 6 - Contacto
+
+30-10-2026T10:28:39 - [MESSAGE][PASSED] - Object: '//main//input[@name='preferredTime' and @value='mañana']' is clicked on
+
+30-10-2026T10:28:39 - [MESSAGE][PASSED] - Object: '//main//input[@name='contactMethod' and @value='correo']' is clicked on
+
+30-10-2026T10:28:40 - [MESSAGE][PASSED] - Object '#acceptsPrivacyPolicy' is checked
+
+30-10-2026T10:28:40 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Siguiente']' is clickable
+
+30-10-2026T10:28:40 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Siguiente']' is clicked on
+
+30-10-2026T10:28:41 - [MESSAGE][PASSED] - Object '//app-wizard-stepper//div[contains(@class,'rounded-full') and contains(@class,'bg-[#0f265c]') and normalize-space()='7']' is present
+
+30-10-2026T10:28:41 - [MESSAGE][INFO] - Sección activa: 7 - Confirmación
+
+30-10-2026T10:28:41 - [TEST_STEP][PASSED] - SimuladorPage.verificarTitulo("Confirmación"): Object '//main//h2[normalize-space()='Confirmación']' is present
+
+30-10-2026T10:28:41 - [MESSAGE][PASSED] - Object '//main//h2[normalize-space()='Confirmación']' is present
+
+30-10-2026T10:28:41 - [TEST_STEP][PASSED] - SimuladorPage.verificarTexto("Código de tu simulación"): Object '//main//*[contains(normalize-space(),"Código de tu simulación")]' is present
+
+30-10-2026T10:28:41 - [MESSAGE][PASSED] - Object '//main//*[contains(normalize-space(),"Código de tu simulación")]' is present
+
+30-10-2026T10:28:41 - [TEST_STEP][PASSED] - resumen = SimuladorPage.valoresResumen(): Execute JavaScript 'return [...document.querySelectorAll('main input[type=text]')].map(e => e.value);' successfully
+
+30-10-2026T10:28:41 - [MESSAGE][PASSED] - Execute JavaScript 'return [...document.querySelectorAll('main input[type=text]')].map(e => e.value);' successfully
+
+30-10-2026T10:28:41 - [TEST_STEP][PASSED] - logInfo(Valores del resumen: $resumen): Valores del resumen: [Quito, $3,000.00, $40,000.00, 1990-05-15, soltero, $150,000.00, 20 años, Juan Pérez Prueba, 1710034065, juan.prueba@example.com, 0991234567, 2, Empresa Demo S.A.]
+
+30-10-2026T10:28:41 - [MESSAGE][INFO] - Valores del resumen: [Quito, $3,000.00, $40,000.00, 1990-05-15, soltero, $150,000.00, 20 años, Juan Pérez Prueba, 1710034065, juan.prueba@example.com, 0991234567, 2, Empresa Demo S.A.]
+
+30-10-2026T10:28:41 - [TEST_STEP][PASSED] - esperados = ["Quito", "Juan Pérez Prueba", "1710034065", "juan.prueba@example.com", "0991234567", "Empresa Demo S.A."]: null
+
+30-10-2026T10:28:41 - [TEST_STEP][PASSED] - faltantes = esperados.findAll({ -> ... }): null
+
+30-10-2026T10:28:41 - [TEST_STEP][PASSED] - if (faltantes): null
+
+30-10-2026T10:28:41 - [TEST_STEP][PASSED] - verifyElementHasAttribute(SimuladorPage.boton("Aceptar y Enviar"), "disabled", SimuladorPage.timeout()): Object '//main//button[normalize-space()='Aceptar y Enviar']' has attribute 'disabled'
+
+30-10-2026T10:28:42 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Aceptar y Enviar']' has attribute 'disabled'
+
+30-10-2026T10:28:42 - [TEST_STEP][PASSED] - check(SimuladorPage.css("#confirmInformation")): Object '#confirmInformation' is checked
+
+30-10-2026T10:28:42 - [MESSAGE][PASSED] - Object '#confirmInformation' is checked
+
+30-10-2026T10:28:42 - [TEST_STEP][PASSED] - verifyElementNotHasAttribute(SimuladorPage.boton("Aceptar y Enviar"), "disabled", SimuladorPage.timeout()): Object '//main//button[normalize-space()='Aceptar y Enviar']' does not have attribute 'disabled'
+
+30-10-2026T10:28:42 - [MESSAGE][PASSED] - Object '//main//button[normalize-space()='Aceptar y Enviar']' does not have attribute 'disabled'
+
+30-10-2026T10:28:42 - [TEST_STEP][PASSED] - SimuladorPage.evidencia("Sección 7 - Confirmación antes de enviar"): Evidencia capturada: Sección 7 - Confirmación antes de enviar
+
+30-10-2026T10:28:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\1793374122934.png]]
+
+30-10-2026T10:28:43 - [MESSAGE][INFO] - Evidencia capturada: Sección 7 - Confirmación antes de enviar
+
+30-10-2026T10:28:43 - [TEST_STEP][PASSED] - click(SimuladorPage.boton("Aceptar y Enviar")): Object: '//main//button[normalize-space()='Aceptar y Enviar']' is clicked on
+
+30-10-2026T10:28:43 - [MESSAGE][PASSED] - Object: '//main//button[normalize-space()='Aceptar y Enviar']' is clicked on
+
+30-10-2026T10:28:43 - [TEST_STEP][PASSED] - hayError = waitForElementVisible(SimuladorPage.xpath("//*[normalize-space(text())='Error en el Envío']"), 15, OPTIONAL): Object '//*[normalize-space(text())='Error en el Envío']' is visible
+
+30-10-2026T10:28:44 - [MESSAGE][PASSED] - Object '//*[normalize-space(text())='Error en el Envío']' is visible
+
+30-10-2026T10:28:44 - [TEST_STEP][PASSED] - SimuladorPage.evidencia("Sección 7 - Resultado del envío"): Evidencia capturada: Sección 7 - Resultado del envío
+
+30-10-2026T10:28:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\jose.padilla\\Pruebas Banco Pichincha\\Automatizaci\u00F3n Banco Pichincha\\Katalon\\Automatizaci-n-Pichincha-Katalon\\Reports\\20261030_102512\\TS_SimuladorHipotecario\\20261030_102512\\1793374124797.png]]
+
+30-10-2026T10:28:45 - [MESSAGE][INFO] - Evidencia capturada: Sección 7 - Resultado del envío
+
+30-10-2026T10:28:45 - [TEST_STEP][FAILED] - if (hayError): El envío de la simulación falló: Http failure response for https://simulador-credito-bancopichincha-back-hef4bsapdyhvgmcf.eastus2-01.azurewebsites.net/api/Simulacion/procesar: 0 Unknown Error
+
+30-10-2026T10:28:45 - [TEST_STEP][PASSED] - detalle = getText(SimuladorPage.xpath("//*[contains(text(),'Http failure')]"), OPTIONAL): Text of object '//*[contains(text(),'Http failure')]' is: 'Http failure response for https://simulador-credito-bancopichincha-back-hef4bsapdyhvgmcf.eastus2-01.azurewebsites.net/api/Simulacion/procesar: 0 Unknown Error'
+
+30-10-2026T10:28:45 - [MESSAGE][PASSED] - Text of object '//*[contains(text(),'Http failure')]' is: 'Http failure response for https://simulador-credito-bancopichincha-back-hef4bsapdyhvgmcf.eastus2-01.azurewebsites.net/api/Simulacion/procesar: 0 Unknown Error'
+
+30-10-2026T10:28:45 - [TEST_STEP][FAILED] - markFailed(El envío de la simulación falló: $detalle): El envío de la simulación falló: Http failure response for https://simulador-credito-bancopichincha-back-hef4bsapdyhvgmcf.eastus2-01.azurewebsites.net/api/Simulacion/procesar: 0 Unknown Error
+
+30-10-2026T10:28:45 - [MESSAGE][FAILED] - El envío de la simulación falló: Http failure response for https://simulador-credito-bancopichincha-back-hef4bsapdyhvgmcf.eastus2-01.azurewebsites.net/api/Simulacion/procesar: 0 Unknown Error
+
+30-10-2026T10:28:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T10:28:45 - [MESSAGE][PASSED] - Browser is closed
+
+30-10-2026T10:28:45 - [TEST_STEP][PASSED] - Start tear down : cerrarNavegador: Method 'cerrarNavegador' complete successfully
+
+30-10-2026T10:28:45 - [TEST_STEP][PASSED] - closeBrowser(OPTIONAL): Browser is closed
+
+30-10-2026T10:28:45 - [MESSAGE][PASSED] - Browser is closed
+
+30-10-2026T10:28:45 - [MESSAGE][PASSED] - Method 'cerrarNavegador' complete successfully]]></system-out>
+         <system-err><![CDATA[30-10-2026T10:28:03 - [TEST_CASE][FAILED] - Test Cases/SimuladorHipotecario/TC07_Confirmacion: Test Cases/SimuladorHipotecario/TC07_Confirmacion FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: El envío de la simulación falló: Http failure response for https://simulador-credito-bancopichincha-back-hef4bsapdyhvgmcf.eastus2-01.azurewebsites.net/api/Simulacion/procesar: 0 Unknown Error
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at TC07_Confirmacion.run(TC07_Confirmacion:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1030_1.run(S1030_1.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-10-2026T10:25:17 - [TEST_SUITE][FAILED] - TS_SimuladorHipotecario: null]]></system-out>
+      <system-err><![CDATA[30-10-2026T10:25:17 - [TEST_SUITE][FAILED] - TS_SimuladorHipotecario: null]]></system-err>
+   </testsuite>
+</testsuites>

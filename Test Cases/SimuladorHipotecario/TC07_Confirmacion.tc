@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sección 7 Confirmación: valida el resumen, confirma y envía la simulación</description>
+   <name>TC07_Confirmacion</name>
+   <tag>simulador,flujo-basico</tag>
+   <comment></comment>
+   <testCaseGuid>d1000001-0000-4000-8000-000000000007</testCaseGuid>
+</TestCaseEntity>

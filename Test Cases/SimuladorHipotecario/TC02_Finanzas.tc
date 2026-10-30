@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sección 2 Finanzas: valida obligatorios, diligencia y avanza a Personaliza</description>
+   <name>TC02_Finanzas</name>
+   <tag>simulador,flujo-basico</tag>
+   <comment></comment>
+   <testCaseGuid>d1000001-0000-4000-8000-000000000002</testCaseGuid>
+</TestCaseEntity>

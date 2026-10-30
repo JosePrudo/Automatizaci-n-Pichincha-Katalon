@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sección 1 Proyecto: valida obligatorios, diligencia y avanza a Finanzas</description>
+   <name>TC01_Proyecto</name>
+   <tag>simulador,flujo-basico</tag>
+   <comment></comment>
+   <testCaseGuid>d1000001-0000-4000-8000-000000000001</testCaseGuid>
+</TestCaseEntity>

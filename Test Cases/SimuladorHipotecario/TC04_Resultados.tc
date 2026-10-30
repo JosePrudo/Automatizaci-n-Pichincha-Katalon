@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sección 4 Resultados: valida contenido y avance a Capacidades (DEF-02 se reporta como advertencia)</description>
+   <name>TC04_Resultados</name>
+   <tag>simulador,flujo-basico</tag>
+   <comment></comment>
+   <testCaseGuid>d1000001-0000-4000-8000-000000000004</testCaseGuid>
+</TestCaseEntity>
