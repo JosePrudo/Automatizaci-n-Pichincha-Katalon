@@ -1,0 +1,45 @@
+name: Katalon CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      suite:
+        description: Test suite a ejecutar
+        required: true
+        default: Test Suites/TS_Smoke
+        type: choice
+        options:
+          - Test Suites/TS_Smoke
+          - Test Suites/TS_SimuladorHipotecario
+
+concurrency:
+  group: katalon-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  katalon:
+    runs-on: windows-latest
+    timeout-minutes: 60
+    env:
+      SUITE: ${{ github.event.inputs.suite || 'Test Suites/TS_Smoke' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Ejecutar suite Katalon
+        uses: katalon-studio/katalon-studio-github-action@v5.0
+        with:
+          version: '11.7.0'
+          projectPath: '${{ github.workspace }}'
+          args: '-noSplash -retry=0 -testSuitePath="${{ env.SUITE }}" -browserType="Chrome (headless)" -executionProfile="default" -apiKey=${{ secrets.KATALON_API_KEY }} --config -webui.autoUpdateDrivers=true'
+
+      - name: Publicar reportes
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: katalon-reports
+          path: Reports/
+          if-no-files-found: warn
